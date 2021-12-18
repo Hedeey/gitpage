@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/mainpage/mainStyle.css">
+    <link rel="stylesheet" href="style/mainpage/mainStyle_title.css">
+	<link rel="stylesheet" href="style/style.css"> <!-- Resource style -->
+	<script src="script/modernizr.js"></script> <!-- Modernizr -->
+    <title>MAIN PAGE</title>
+</head>
+<body>
+    <main>
+        <div class="cd-index cd-main-content">
+            <div>
+                <div class="content">
+                    <div class="content__container">
+                      <p class="content__container__text"></p>
+                      <ul class="content__container__list">
+                        <li class="content__container__list__item">HELLO USER !</li>
+                        <li class="content__container__list__item">WELCOME TO !</li>
+                        <li class="content__container__list__item">MY !</li>
+                        <li class="content__container__list__item">WEBPAGE !</li>
+                      </ul>
+                    </div>
+                  </div>
+            
+                <div class="container">
+                    <div class="card"> <!-- 시간표 카드 -->
+                        <img src="images/Calendar.png" alt="schedule-icon-image" class="card-image-calendar">
+            
+                        <div class="card__data">
+                            <h1 class="card__title">Business card</h1>
+                            <span class="today"></span>
+                            <p class="schedule"></p>
+                            <a class="cd-btn" href="hi.html" data-type="page-transition">Business card</a>
+                            <!--<a href="#" class="card__button">buy</a>--> <!-- 요일별 시간표 띄우기 만들기-->
+                        </div>  
+                    </div>
+                    
+                    <div class="card"> <!-- 급식 -->
+                        <img src="images/food.png" alt="schedule-icon-image" class="card-image-food">
+            
+                        <div class="card__data">
+                            <h1 class="card__title_food">SCHOOL LUNCH</h1>
+                            <span class="today"></span>
+                            <a href="#" class="card__button" onclick="window.open('https://weseb.com/SJB/board.php?board=school&command=body&no=1021')">CLICK</a>
+                            <!--<a href="#" class="card__button">buy</a>--> <!-- 요일별 시간표 띄우기 만들기-->
+                        </div>  
+                    </div>
+                    
+                    <div class="card"> <!-- 미정 -->
+                        <img src="images/sign.png" alt="schedule-icon-image" class="card-image-sign">
+                        <div class="card__data">
+                            <h1 class="card__title">NEXT PAGE</h1>
+                            <a class="cd-btn" href="about.html" data-type="page-transition">Start animation</a>
+                            <!--<a href="#" class="card__button">buy</a>--> <!-- 요일별 시간표 띄우기 만들기-->
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="cd-cover-layer"></div>
+    <div class="cd-loading-bar"></div>
+    <script src="script/jquery.js"></script>
+    <script src="script/todayJS.js"></script>
+    <script src="script/todayschedule.js"></script>
+    <script src="script/main.js"></script>
+</body>
+</html> 
